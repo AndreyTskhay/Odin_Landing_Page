@@ -1,0 +1,56 @@
+/*Header*/
+#header{
+    display: flex;  
+    justify-content: space-around;
+    background-color: #1F2937;
+}
+
+#leftSide{
+    display: flex;
+    flex-direction: column;
+    
+    flex-wrap:wrap;
+}
+#rightSide{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: none;
+    align-items: end;
+
+}
+#headerinfotext{
+    margin-top: 30px;
+}
+#logo{
+    margin-top: 30px;
+    flex-basis: auto;
+}
+
+#headerLinks{
+    display: flex;
+    gap: 30px;
+}
+#mainText{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+
+
+.secondaryText{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+img {
+    background-color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
