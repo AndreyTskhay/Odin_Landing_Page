@@ -149,3 +149,46 @@ button {
     height: auto;
 }
 
+#signUp{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    background-color: #3882F6;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom:3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 5px;
+    color: #F9FAF8;
+}
+#signUpLeft{
+    display: flex;
+    flex-direction: column;
+}
+#signUpLeft h5 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#signUpLeft p {
+    margin-top: 0;
+    padding-top: 0;
+}
+#signUpButton{
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    border-width: 2px;
+    outline-color: white;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #1F2937;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
